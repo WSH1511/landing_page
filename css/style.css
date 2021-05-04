@@ -1,0 +1,141 @@
+html {
+	box-sizing: border-box;
+	background-color: #A1D3AD
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit
+}
+
+p{
+	font-family: "Noto Sans CJK TC";
+}
+
+
+/*主視覺*/
+.primary {
+	height: 600px;
+	padding-top: 100px;
+	background-image: url(../img/primary.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.slogan{
+	height: 600px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.slogan_text{
+	font-weight: bold;
+	font-size: 5vw;
+	color: #fff;
+}
+
+.content{
+	background-color: #A1D3AD;
+}
+
+/*說服*/
+.section1 {
+	width:100%;
+	height: 250px;
+}
+
+.title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: normal;
+	font-size: 2.7vw;
+	padding-top: 30px;
+}
+
+
+.reason4{
+	display: flex;
+	align-items: center;
+}
+
+.reason{
+	display: flex;
+	justify-content: left;
+	align-items: flex-end;
+}
+
+.reason img{
+	width: 45%;
+	height: auto;
+
+}
+
+.reason p{
+	font-size: 1.7vw;
+	font-weight: normal;
+}
+
+/*影片*/
+
+.clip{
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+/*聯絡*/
+.section3{
+	width: 70%;
+	height: auto;
+}
+
+.info{
+	text-align: center;
+}
+
+
+.link1{
+	text-align: right;
+}
+
+.link2{
+	text-align: left;
+}
+
+
+
+
+a:link, a:visited{
+	background-color: #A1D3AD;
+  	color: #EE4938;
+  	padding: 10px 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	border-style: dotted;
+  	border-color: #EE4938;
+  	border-radius: 3px;
+  	font-family: "Noto Sans CJK TC";
+  	justify-content: center;
+	align-items: center;
+}
+
+a:hover, a:active {
+  	background-color: #DF4133;
+}
+
+footer{
+	text-align: center;
+	padding-top: 10px;
+	background-color: #A1D3AD;
+}
+
+.footer{
+	font-style: italic;
+	font-size: 5px;
+}
